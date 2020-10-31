@@ -23,24 +23,27 @@
     flex-wrap: wrap;
 }
 
+.column-item {
+    height: 20em;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
 .column1 {
     background-color: #aaaaaa;
     flex-grow: 1;
-    height: 20em;
     order: 1;
 }
 
 .column2 {
     background-color: #bbbbbb;
     flex-grow: 2;
-    height: 20em;
     order: 2;
 }
 
 .column3 {
     background-color: #cccccc;
     flex-grow: 1;
-    height: 20em;
     order: 3;
 }
 
