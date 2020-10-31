@@ -1,0 +1,54 @@
+.header {
+    background-color: #add8e6;
+}
+
+.menu {
+    background-color: #2f4f4f;
+    color: white;
+}
+
+.menu>div {
+    padding: 1em;
+    border-right: 1px solid black;
+}
+
+.column-item {
+    height: 20em;
+}
+
+.column1 {
+    background-color: #aaaaaa;
+}
+
+.column2 {
+    background-color: #bbbbbb;
+}
+
+.column3 {
+    background-color: #cccccc;
+}
+
+.footer {
+    background-color: #2f4f4f;
+    color: white;
+    padding: 1em;
+}
+
+@media screen and (max-width:599px) {
+    .column {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .column1 {
+        width: 50% !important;
+        order: -1;
+    }
+    .column2 {
+        width: 100% !important;
+        order: 1;
+    }
+    .column3 {
+        width: 50% !important;
+        order: 0;
+    }
+}
