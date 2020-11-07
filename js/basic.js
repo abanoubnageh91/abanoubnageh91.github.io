@@ -60,7 +60,6 @@ const reduceExample = (...arr) => {
 
 
 function myFunctionArrayTest(expected, found) {
-    console.assert(JSON.stringify(expected) === JSON.stringify(found()), "TEST FAILED.  Expected " + expected + " found " + found());
     if (JSON.stringify(expected) === JSON.stringify(found())) {
         return "TEST SUCCEEDED";
     } else {
@@ -69,7 +68,6 @@ function myFunctionArrayTest(expected, found) {
 }
 
 function myFunctionTest(expected, found) {
-    console.assert(expected === found(), "TEST FAILED.  Expected " + expected + " found " + found());
     if (expected === found()) {
         return "TEST SUCCEEDED";
     } else {
