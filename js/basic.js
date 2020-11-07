@@ -100,12 +100,12 @@ console.log("Expected output of reverse(\"nice\") is ecin " + myFunctionTest("ec
 console.log("Expected output of reverse(\"okay\") is yako " + myFunctionTest("il", () => reverse("okay")));
 
 console.log("\n");
-console.log("Expected output of findLongestWord([okay,kareem,vowel]) is 5 " + myFunctionTest(5, () => findLongestWord("okay", "kareem", "vowel")));
-console.log("Expected output of findLongestWord([okay,kareem,vowel]) is 5 " + myFunctionTest(3, () => findLongestWord("okay", "kareem", "vowel")));
+console.log("Expected output of findLongestWord([okay,Abanoub,vowel]) is 5 " + myFunctionTest(5, () => findLongestWord("okay", "Abanoub", "vowel")));
+console.log("Expected output of findLongestWord([okay,Abanoub,vowel]) is 5 " + myFunctionTest(3, () => findLongestWord("okay", "Abanoub", "vowel")));
 
 console.log("\n");
-console.log("Expected output of filterLongWords(4,[okay,kareem,vowel]) is [kareem,vowel] " + myFunctionArrayTest(['kareem', 'vowel'], () => filterLongWords(4, 'okay', 'kareem', 'vowel')));
-console.log("Expected output of filterLongWords(4,[okay,kareem,vowel]) is [kareem,vowel] " + myFunctionArrayTest(['kareem'], () => filterLongWords(4, 'okay', 'kareem', 'vowel')));
+console.log("Expected output of filterLongWords(4,[okay,Abanoub,vowel]) is [Abanoub,vowel] " + myFunctionArrayTest(['Abanoub', 'vowel'], () => filterLongWords(4, 'okay', 'Abanoub', 'vowel')));
+console.log("Expected output of filterLongWords(4,[okay,Abanoub,vowel]) is [Abanoub,vowel] " + myFunctionArrayTest(['Abanoub'], () => filterLongWords(4, 'okay', 'Abanoub', 'vowel')));
 
 console.log("\n");
 console.log("Expected output of mapExample([5,8,3,1]) is [50,80,30,10] " + myFunctionArrayTest([50, 80, 30, 10], () => mapExample(5, 8, 3, 1)));
